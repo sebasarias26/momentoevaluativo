@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="#D8FFDB">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -76,7 +77,8 @@
             android:id="@+id/buttonSubirPDF"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Seleccionar archivo" />
+            android:text="Seleccionar archivo"
+            android:backgroundTint="#008F8C"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -90,13 +92,15 @@
             android:id="@+id/buttonSubirImagen"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Seleccionar imagen" />
+            android:text="Seleccionar imagen"
+            android:backgroundTint="#008F8C"/>
 
         <Button
             android:id="@+id/btnregresar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="REGRESAR" />
+            android:text="REGRESAR"
+            android:backgroundTint="#008F8C"/>
 
 
     </LinearLayout>

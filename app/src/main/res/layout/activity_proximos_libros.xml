@@ -5,7 +5,8 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".proximos_libros">
+    tools:context=".proximos_libros"
+    android:background="#D8FFDB">
 
     <LinearLayout
         android:layout_width="159dp"
@@ -17,8 +18,8 @@
         <ImageView
             android:id="@+id/imageView9"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            tools:srcCompat="@tools:sample/avatars" />
+            android:layout_height="133dp"
+            tools:srcCompat="@drawable/percy" />
 
         <TextView
             android:id="@+id/textView9"
@@ -36,7 +37,8 @@
             android:id="@+id/button20"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="AVISAR" />
+            android:text="AVISAR"
+            android:backgroundTint="#008F8C"/>
     </LinearLayout>
 
     <TextView
@@ -59,8 +61,8 @@
         <ImageView
             android:id="@+id/imageView6"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            tools:srcCompat="@tools:sample/avatars" />
+            android:layout_height="125dp"
+            tools:srcCompat="@drawable/harry" />
 
         <TextView
             android:id="@+id/textView3"
@@ -78,7 +80,8 @@
             android:id="@+id/button17"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="AVISAR" />
+            android:text="AVISAR"
+            android:backgroundTint="#008F8C"/>
     </LinearLayout>
 
     <LinearLayout
@@ -91,8 +94,8 @@
         <ImageView
             android:id="@+id/imageView7"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            tools:srcCompat="@tools:sample/avatars" />
+            android:layout_height="131dp"
+            tools:srcCompat="@drawable/anillos" />
 
         <TextView
             android:id="@+id/textView5"
@@ -110,6 +113,7 @@
             android:id="@+id/button18"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:backgroundTint="#008F8C"
             android:text="AVISAR" />
     </LinearLayout>
 
@@ -123,8 +127,8 @@
         <ImageView
             android:id="@+id/imageView8"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            tools:srcCompat="@tools:sample/avatars" />
+            android:layout_height="133dp"
+            tools:srcCompat="@drawable/got" />
 
         <TextView
             android:id="@+id/textView7"
@@ -142,7 +146,8 @@
             android:id="@+id/button19"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="AVISAR" />
+            android:text="AVISAR"
+            android:backgroundTint="#008F8C"/>
     </LinearLayout>
 
     <Button
@@ -150,6 +155,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="REGRESAR"
+        android:backgroundTint="#008F8C"
         tools:layout_editor_absoluteX="146dp"
         tools:layout_editor_absoluteY="769dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
